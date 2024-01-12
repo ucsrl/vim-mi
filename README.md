@@ -2,7 +2,7 @@
 
 [vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) plugin for MI assembly
 
-<!--![vim-mi-example](#)-->
+![vim-mi-example](https://raw.githubusercontent.com/ucsrl/vim-mi/master/example.png)
 
 ## Introduction
 
