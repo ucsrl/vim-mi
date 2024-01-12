@@ -2,7 +2,7 @@
 
 [vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) plugin for MI assembly
 
-![vim-mi-example](https://raw.githubusercontent.com/ucsrl/vim-mi/master/example.png)
+<img src="https://raw.githubusercontent.com/ucsrl/vim-mi/master/example.png" width="250"/>
 
 ## Introduction
 
@@ -13,7 +13,7 @@ MI is primarily used for teaching.
 ## How it works
 
 Files with extensions `*.mi`, `*.miasm`, `*.asm.mi` are [automatically](https://github.com/ucsrl/vim-mi/blob/master/ftdetect/mi.vim) 
-[syntax highlighted](https://github.com/ucsrl/vim-mi/blob/master/syntax/mi.vim) in vim.
+[syntax highlighted](https://github.com/ucsrl/vim-mi/blob/master/syntax/mi.vim) in vim (the exact colors depend on your colorscheme).
 
 ## Installation
 
@@ -24,4 +24,4 @@ Files with extensions `*.mi`, `*.miasm`, `*.asm.mi` are [automatically](https://
 Alternatively, you can use any plugin manager (e.g. [vim-plug](https://github.com/junegunn/vim-plug) or [Vundle](https://github.com/VundleVim/Vundle.vim)).
 
 ## License
-[Public Domain](https://github.com/ucsrl/vim-mi/blob/main/UNLICENSE)
+[Public Domain](https://github.com/ucsrl/vim-mi/blob/master/UNLICENSE)
