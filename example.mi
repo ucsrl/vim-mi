@@ -1,0 +1,22 @@
+        SEG   
+
+key:    DD H'ab7055f0'
+ft:     DD W method_name
+
+cont:   MOVE W I 10, R0
+        JUMP check
+        -- explain how to do this
+        -- TODO: explanation
+        MOVE W I 45, R0
+        JUMP check
+
+main:   CLEAR W -!sp
+        MOVE W R0, -!sp
+        MOVE W R8, -!sp
+        MOVE W !!R8, R8
+        CALL R8
+        ADD W I 8, sp
+        MOVE W !sp+, R0
+        HALT
+
+        END -- of segment
